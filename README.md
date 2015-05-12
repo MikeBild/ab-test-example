@@ -4,6 +4,8 @@
 
 Make user-driven decisions with a simplified A/B test system. The client side is self contained without external dependencies. The client uses cryptographically random A/B test variant and track the results to a microservice backend.
 
+[Live Example](http://mikebild.github.io/ab-test-example)
+
 ##How to 
 Testing different versions of text, backend rendered HTML templates, different backend APIs, layouts, images, or colors in the browser has never been more simple.
 
