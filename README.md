@@ -31,7 +31,7 @@ AB.test(['red','green','blue'], 1);
 AB.track({shown:cssClass});
 ```
 
-**Track visits**
+**Track visit**
 
 ```
 AB.track({chose:cssClass});
