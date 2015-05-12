@@ -4,7 +4,8 @@
 
 Make user-driven decisions with a simplified A/B test system. The client side is self contained without external dependencies. The client uses cryptographically random A/B test variant and track the results to a microservice backend.
 
-[Live Example](http://mikebild.github.io/ab-test-example)
+[Live AB-Test Example](http://mikebild.github.io/ab-test-example)
+[Ad-Hoc-Statistics](https://demoabtest.subkit.io/api/AB-css-colored-button-stats)
 
 ##How to 
 Testing different versions of text, backend rendered HTML templates, different backend APIs, layouts, images, or colors in the browser has never been more simple.
@@ -26,4 +27,6 @@ AB.test(['red','green','blue'], 1);
 ##Conversion rate statistics
 How you analyze the actionable data is up to you. In this simplified example the client uses one microservice for a AB-Test created with [Subkit](http://subkit.io) to track the impressions and visits for different feature variants.
 
-[AB-Test Statistics for `css-colored-button` feature](https://demoabtest.subkit.io/api/AB-css-colored-button-stats)
+An ad-hoc Event-Log-Projection is used to analyse and calculate the conversion rates for different feature `css-colored-button` variants.
+
+[Ad-Hoc-Statistics](https://demoabtest.subkit.io/api/AB-css-colored-button-stats)
