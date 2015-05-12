@@ -22,6 +22,6 @@ AB.test(['red','green','blue'], 1);
 * 0.001 will run the test one thousandth of the time
 
 ##Conversion rate statistics
-How you analyze the actionable data is up to you. In this simplified example the client uses one microservice for a AB-Test created with [Subkit](http://subkit.io){:target="_blank"} to track the impressions and visits for different feature variants.
+How you analyze the actionable data is up to you. In this simplified example the client uses one microservice for a AB-Test created with [Subkit](http://subkit.io){target="_blank"} to track the impressions and visits for different feature variants.
 
-[AB-Test Statistics for `css-colored-button` feature](https://demoabtest.subkit.io/api/AB-css-colored-button-stats){:target="_blank"}
+[AB-Test Statistics for `css-colored-button` feature](https://demoabtest.subkit.io/api/AB-css-colored-button-stats){target="_blank"}
