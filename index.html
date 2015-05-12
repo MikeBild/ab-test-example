@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A/B Test Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+    <script defer src="lib/ab.js"></script>
+    <script defer src="lib/track.js"></script>
+    <script defer src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="starter-template">
+
+        <h1>A/B Test Example</h1>
+        <p class="lead">
+          Typically you will only run the test once such as when you are rendering the UI. This 
+          simple example will run an A/B test every 5 seconds on the button below using a 
+          list of seven possible variants.
+        </p>
+        <button id="example" type="button" class="btn btn-lg btn-default">
+          <span class="glyphicon glyphicon-star"></span> Star this!
+        </button>
+
+      </div>
+    </div>
+  </body>
+</html>
