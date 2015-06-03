@@ -1,0 +1,5 @@
+{
+    "name": "ab-test-colored-button-stats",
+    "taskScript": "task.eventsource  \n  .from(['AB-css-colored-button'])  \n  .run({\n    $init: function(){\n      return {\n        visit: {\n          count: 0\n        },\n        impression: {\n          count: 0\n        },\n        conversion: {}\n      };      \n    },\n    $any: function(state, e){\n      if(e.shown){\n        state.conversion[e.shown] = 0;\n        state.impression.count += 1;\n        if(!state.impression[e.shown]) state.impression[e.shown] = 0;\n        state.impression[e.shown] += 1;\n      }\n\n      if(e.chose){\n        state.conversion[e.chose] = 0;\n        state.visit.count += 1;\n        if(!state.visit[e.chose]) state.visit[e.chose] = 0;\n        state.visit[e.chose] += 1;\n      }      \n\n      return state;\n    },\n    $completed: function(state){\n      for(var idx in state.conversion){\n        state.conversion[idx] = state.visit[idx] / state.impression[idx] * 100 || 0;\n      } \n      return state;\n    }\n  }, task.done);",
+    "anonymous": true
+}

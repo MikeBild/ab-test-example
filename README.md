@@ -7,6 +7,22 @@ Make user-driven decisions with a simplified A/B test system. The client side is
 * [Live AB-Test Example](http://mikebild.github.io/ab-test-example)
 * [Ad-Hoc-Statistics](https://demoabtest.subkit.io/api/AB-css-colored-button-stats)
 
+##Setup Example
+
+###Client
+
+```
+open app/index.html
+```
+
+###Service
+
+```
+cd services
+subkit update abtest
+subkit start abtest
+```
+
 ##How-To 
 Testing different versions of text, backend rendered HTML templates, different backend APIs, layouts, images, or colors in the browser has never been more simple.
 

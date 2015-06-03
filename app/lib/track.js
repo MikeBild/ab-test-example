@@ -4,7 +4,7 @@
   window[as].track = function (data, callback) {
     if(!callback) callback = function(){};
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://demoabtest.subkit.io/events/emit/AB-css-colored-button');
+    xhr.open('POST', 'https://localhost:8080/events/emit/AB-css-colored-button');
     xhr.setRequestHeader('content-type', 'application/json');
     xhr.setRequestHeader('x-subkit-event-persistent', 'true');
     xhr.onload = function(){

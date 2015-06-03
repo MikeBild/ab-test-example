@@ -1,0 +1,30 @@
+{
+    "/dashboard": {
+        "GET": [
+            "anonymous"
+        ],
+        "POST": [],
+        "PUT": [],
+        "DELETE": []
+    },
+    "/api/ab-test-colored-button-stats": {
+        "GET": [
+            "anonymous"
+        ],
+        "POST": [
+            "anonymous"
+        ],
+        "PUT": [
+            "anonymous"
+        ],
+        "DELETE": []
+    },
+    "/events/emit/AB-css-colored-button": {
+        "GET": [],
+        "POST": [
+            "anonymous"
+        ],
+        "PUT": [],
+        "DELETE": []
+    }
+}

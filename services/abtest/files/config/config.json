@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "username": "subkit",
+    "password": "po78gGWyD3cc0cc472e9f28ca5f74bd95e115016a"
+  },
+  "app": {
+    "id": "713172f6-fd0e-498c-a7f7-0a1afcbf423d",
+    "domain": "subkit.io",
+    "port": 8080,
+    "key": "./files/cert/server.key",
+    "cert": "./files/cert/server.crt",
+    "ca": "./files/cert/server.ca"
+  },
+  "api": {
+    "apiKey": "66LOHAiB8Zeod1bAeLYW"
+  },
+  "paths": {
+    "backupPath": "./backups",
+    "dbPath": "./files/masterdb",
+    "staticsPath": "./files/statics",
+    "templatesPath": "./files/templates",
+    "tasksPath": "./files/tasks"
+  },
+  "webhooks": {}
+}
